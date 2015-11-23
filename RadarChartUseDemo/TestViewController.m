@@ -64,7 +64,6 @@
     _radarChart.drawPoints = YES;
     _radarChart.showStepText = NO;
     _radarChart.showPointValue = YES;
-    [_radarChart setTitles:@[@"iPhone", @"pizza", @"hard drive"]];
     [_radarChart setNeedsDisplay];
 
 }
