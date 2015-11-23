@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RadarChartViewController.h"
+#import "TestViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    RadarChartViewController *radarChartVC = [[RadarChartViewController  alloc] init];
+//    self.window.rootViewController = radarChartVC;
+    
+    TestViewController *testVC = [[TestViewController  alloc] init];
+    self.window.rootViewController = testVC;
+    
     return YES;
 }
 
